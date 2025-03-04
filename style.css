@@ -67,7 +67,7 @@ body{
 
 }
 .tourist-spot img{
-    max-height: 350px;
+    max-height: 375px;
     width: 100%;
     object-fit: cover;
     object-position:  center 70%;;
@@ -94,13 +94,14 @@ body{
 }
 .tourist-spot ul{
     padding-left: 24px;
+    font-weight: bold;
     color: #0C51A7;
     margin-bottom: 48px;
     padding-bottom: 40px;
     border-bottom: 2px solid var(--border-primary);
 }
 .tourist-spot li::marker{
-    color: black;
+    color: #333333;
 }
  #park li:nth-child(1) {
     color: #591B98;
