@@ -24,7 +24,7 @@ body{
 .about{
     text-align: left;
 }
-.about span{
+.about span, .details span{
     color: #E1624F;
     text-transform: uppercase;
     font-weight: bold;
@@ -47,4 +47,72 @@ body{
     padding: 24px;
     color: var(--text-secondary);
     border-bottom: 2px solid var(--border-primary);
+    font-style: italic;
+}
+
+.details{
+    margin-top:64px ;
+}
+.details h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.details p{
+    color: var(--text-secondary);
+    margin-bottom: 64px;
+}
+#temple{
+    object-position:  center;;
+
+}
+.tourist-spot img{
+    max-height: 350px;
+    width: 100%;
+    object-fit: cover;
+    object-position:  center 70%;;
+    border-radius: 28px;
+    margin-bottom: 20px;
+}
+.tourist-spot h3{
+    padding-left: 8px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.tourist-spot p{
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+}
+.tourist-spot .great-for{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--text-secondary);
+    margin-top: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.tourist-spot ul{
+    padding-left: 24px;
+    color: #0C51A7;
+    margin-bottom: 48px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid var(--border-primary);
+}
+.tourist-spot li::marker{
+    color: black;
+}
+ #park li:nth-child(1) {
+    color: #591B98;
+}
+#park li:nth-child(2){
+    color: #E5245E;
+}
+#park li:nth-child(3){
+    color: #E95E10;
+}
+
+footer{
+    text-align: center;
+    color: var(--text-secondary);
 }
